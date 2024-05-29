@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Styles from "./home.module.css";
 import { TypeAnimation } from "react-type-animation";
 
@@ -18,10 +19,7 @@ export default function Home() {
           repeat={Infinity}
         />
       </div>
-      <div>
-        
-      </div>
-
+    
       <section className={Styles.section}>
         <span></span>
         <span></span>

@@ -62,7 +62,7 @@ export default function Navbar() {
             Projects
           </NavLink>
         </div>
-        <div>
+        {/* <div>
           <NavLink
             to="/skills"
             style={({ isActive }) => {
@@ -76,7 +76,7 @@ export default function Navbar() {
           >
             Skills
           </NavLink>
-        </div>
+        </div> */}
         {/* <div>
           <NavLink
             to="/achievments"

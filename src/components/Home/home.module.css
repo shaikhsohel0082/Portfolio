@@ -148,3 +148,24 @@ span:nth-child(10) {
     animation-delay: 2.75s;
     animation-duration: 2.75s;
 }
+
+.homebtn {
+    width: 200px;
+    margin-top: 30%;
+    margin-left: 350px;
+}
+button {
+    padding: 10px;
+    width: 100px;
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px 10px;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: transparent;
+    color: aliceblue;
+}
