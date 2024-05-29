@@ -1,0 +1,53 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+.navbarDiv {
+    width: 99.9vw;
+    height: fit-content;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.navbarDiv a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 5px;
+
+}
+
+.navElement {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbarDiv a:hover {
+    border: 2px dotted white;
+    border-radius: 20px 20px;
+}
+
+.downloadBtn {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    font-size: larger;
+    color: aliceblue;
+    border: none;
+}
+
+.downloadBtn:hover {
+    border: 2px dotted white;
+    border-radius: 20px 20px;
+}

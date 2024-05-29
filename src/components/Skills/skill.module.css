@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.skillContainer {
+    height: 90vh;
+    width: 99.8vw;
+    border: 2px solid rgb(37, 36, 36);
+    background-color: rgb(37, 36, 36);
+    color: white;
+    font-family: cursive;
+
+}
+
+.front {
+    height: 300px;
+    width: 300px;
+    background: url('');
+    background-size: cover;
+    margin-top: 10%;
+    margin-left: 20px;
+}

@@ -1,0 +1,259 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.container {
+    height: 90.5vh;
+    width: 100vw;
+    background: url("/src/components/Home/pexels-timelockz-2827000-4497038.jpg");
+    background-size: cover;
+
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.Div {
+    position: absolute;
+    /* border: 1px solid white; */
+    height: 85%;
+    width: 49%;
+    bottom: 1%;
+    color: beige;
+    font-family: cursive;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.name {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.Contact {
+    /* margin-left: 1%; */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.Contact h1 {
+    margin-left: 50px;
+}
+
+.contactlogo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-right: 10px;
+
+}
+
+.autherLogo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+
+}
+
+.leftDiv {
+    left: 5%;
+    top: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+}
+
+input,
+textarea {
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    background: transparent;
+    color: aliceblue;
+    border: none;
+    border-bottom: 2px solid aliceblue;
+    text-align: center;
+    outline: none;
+}
+
+textarea {
+    height: 60px;
+}
+
+button {
+    padding: 10px;
+    width: 100px;
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px 10px;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: transparent;
+    color: aliceblue;
+}
+
+.rightDiv {
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+.linkedIn {
+    background: url("https://cdn-icons-png.flaticon.com/128/145/145807.png");
+    background-size: cover;
+    top: 45%;
+    left: 45%;
+    animation: rotate1 10s linear infinite;
+
+
+}
+
+.gitHub {
+    animation: rotate2 15s linear infinite;
+    background: url("https://cdn-icons-png.flaticon.com/128/11378/11378534.png");
+    background-size: cover;
+    top: 44%;
+    left: 43%;
+
+
+}
+
+.insta {
+    animation: rotate3 10s linear infinite;
+    background: url("https://cdn-icons-png.flaticon.com/128/15707/15707749.png");
+    background-size: cover;
+    top: 37%;
+    left: 35%;
+
+}
+
+.orbit1 {
+    height: 560px;
+    width: 560px;
+    border-radius: 50%;
+    border: 1px dashed aliceblue;
+    position: absolute;
+    top: 2%;
+    left: 17%;
+}
+
+.orbit2 {
+    height: 380px;
+    width: 380px;
+    border-radius: 50%;
+    border: 1px dashed aliceblue;
+    position: absolute;
+    top: 18%;
+    left: 29%;
+
+}
+
+.orbit3 {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 1px dashed aliceblue;
+    position: absolute;
+    top: 35%;
+    left: 42%;
+
+}
+
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0deg) translateX(280px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translateX(280px) rotate(-360deg);
+    }
+}
+
+@keyframes rotate2 {
+    0% {
+        transform: rotate(0deg) translateX(190px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg) translateX(190px) rotate(360deg);
+    }
+}
+
+@keyframes rotate3 {
+    0% {
+        transform: rotate(0deg) translateX(90px) rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translateX(90px) rotate(-360deg);
+    }
+}
+
+.thankYou {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: hsl(0, 0%, 28%);
+    font-size: 3rem;
+    font-family: monospace;
+    cursor: pointer;
+    letter-spacing: 0.5cm;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+
+    60% {
+        background-position: 600px;
+    }
+
+    100% {
+        background-position: 600px;
+    }
+}
