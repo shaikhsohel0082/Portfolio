@@ -72,12 +72,13 @@ body {
 }
 
 .leftDiv {
-    left: 5%;
+    left: 7%;
     top: 10%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
+
 
 
 
@@ -123,6 +124,48 @@ button:hover {
 
 .rightDiv {
     right: 0;
+}
+
+.auther {
+    margin-left: 1px;
+}
+
+.email {
+    margin-right: 1px;
+}
+
+@media screen and (max-width: 600px) {
+    .rightDiv {
+        position: absolute;
+        left: 5%;
+        top: 100%;
+        margin-top: 40%;
+        margin-bottom: 5%;
+    }
+
+    .leftDiv {
+        left: 5%;
+        top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+
+
+
+
+    }
+
+    .auther {
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    .rightDiv {
+        display: none;
+    }
+
+
 }
 
 .circle {

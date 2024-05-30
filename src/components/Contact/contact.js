@@ -55,28 +55,15 @@ export default function Contact() {
               }}
             >
               <div className={Styles.name}>
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Name"
-      
-                  required
-                />
+                <input type="text" name="name" placeholder="Name" required />
               </div>
               <div className={Styles.name}>
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Email"
-                 
-                  required
-                />
+                <input type="email" name="email" placeholder="Email" required />
               </div>
               <div className={Styles.name}>
                 <textarea
                   placeholder="Message"
                   name="message"
-                 
                   required
                 ></textarea>
               </div>
@@ -112,7 +99,7 @@ export default function Contact() {
                 src="https://cdn-icons-gif.flaticon.com/8717/8717939.gif"
               />
               <a href="mailto:shaikhsohel0082@gmail.com">
-                shaikhsohel0082@gmail.com
+                <span className={Styles.email}>shaikhsohel0082@gmail.com</span>
               </a>
             </p>
           </div>
