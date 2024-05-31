@@ -79,8 +79,8 @@ export const data = [
     description:
       "A responsive personal portfolio website with a clean design, showcasing your skills, work experience through various sections, and the ability for visitors to get in touch.",
     technology: "HTML, CSS, JS",
-    github: "https://github.com/shaikhsohel0082/My-resume.git",
-    demo: "https://shaikhsohel0082.github.io/My-resume/",
+    github: "https://github.com/shaikhsohel0082/MyResume.git",
+    demo: "https://shaikhsohel0082.github.io/MyResume/",
   },
   {
     id: 9,
