@@ -8,7 +8,7 @@ export default function Project() {
           <>
             <div className={Styles.card}>
               <div className={Styles.in}>
-                <div>
+                <div className={Styles.imageDiv}>
                   <img src={item.img} className={Styles.image} />
                 </div>
                 <div>
@@ -29,12 +29,35 @@ export default function Project() {
                 </div>
                 <div>
                   <p>
-                    Github Repo: <a href={item.github} target="_blank">Github</a>
+                    Github Repo:{" "}
+                    <a href={item.github} target="_blank">
+                      Github
+                    </a>
                   </p>
                 </div>
                 <hr />
+
+                {item.server && (
+                  <>
+                    <div>
+                      <p>
+                        Server :&nbsp;
+                        <a href={item.server} target="_blank">
+                          Start server
+                        </a>
+                      </p>
+                    </div>
+                    <hr />
+                  </>
+                )}
+
                 <div>
-                  <p>Demo : <a href={item.demo} target="_blank">Live Demo</a></p>
+                  <p>
+                    Demo :{" "}
+                    <a href={item.demo} target="_blank">
+                      Live Demo
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>

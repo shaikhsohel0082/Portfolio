@@ -7,6 +7,7 @@ export const data = [
       "Rentify is a simple brokarage application to find a house for rent. Users can search for houses according to their choices and can also book a house.",
     technology: "React, Node, Express, MongoDB, HTML, CSS, Bootstrap",
     github: "https://github.com/shaikhsohel0082/rentifyFrontend",
+    server: "https://rentifybackend-gq7p.onrender.com",
     demo: "https://rentifyfrontend-eq4y.onrender.com/",
   },
   {
@@ -37,6 +38,7 @@ export const data = [
       "Calculator is a simple react application that will allow you to perform basic arithmetic operations.",
     technology: "React, HTML, CSS",
     github: "https://github.com/shaikhsohel0082/calculator.git",
+
     demo: "https://calculator-6lyn.onrender.com/",
   },
   {
