@@ -18,10 +18,20 @@ export const data = [
       "Conatct manager is a simple react application that will allow to create a contact and save it update it and delete it.",
     technology: "React, HTML, CSS",
     github: "https://github.com/shaikhsohel0082/Contact-App.git",
-    demo: "https://contact-app-qli2.onrender.com/",
+    demo: "https://contact-maanager.netlify.app/",
   },
   {
     id: 3,
+    title: "Habit Tracking App",
+    img: "/images/habitTracker.png",
+    description:
+      "A habit tracking application built with React, Redux, and React Router. This app allows users to add new habits, track weekly progress, mark habits as done, not done, or none, and view detailed statistics for each habit.",
+    technology: "React, HTML, CSS",
+    github: "ttps://github.com/shaikhsohel0082/Habit-Tracker.git",
+    demo: "https://habit-trackerappl.netlify.app/",
+  },
+  {
+    id: 4,
     title: "Eshop",
     img: "/images/Eshop.png",
     description:
@@ -31,7 +41,7 @@ export const data = [
     demo: "https://eshoppy-p514.onrender.com/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Calculator",
     img: "/images/calculator.png",
     description:
@@ -42,7 +52,7 @@ export const data = [
     demo: "https://calculator-6lyn.onrender.com/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Music Player",
     img: "/images/musicPlayer.png",
     description:
@@ -53,7 +63,7 @@ export const data = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Mini IMDB Clone App",
     img: "/images/IMDB.png",
     description:
@@ -63,7 +73,7 @@ export const data = [
     demo: "https://shaikhsohel0082.github.io/Mini-IMDB-Clone-App/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Placement Cell",
     img: "/images/placementCell.png",
     description:
@@ -73,7 +83,7 @@ export const data = [
     demo: "https://placementcell-4qep.onrender.com/",
   },
   {
-    id: 8,
+    id: 9,
     title: "My Resume",
     img: "/images/resume.png",
     description:
@@ -83,7 +93,7 @@ export const data = [
     demo: "https://shaikhsohel0082.github.io/MyResume/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Stock Market Analysis Web App",
     img: "/images/stock.png",
     description:
@@ -93,7 +103,7 @@ export const data = [
     demo: "https://shaikhsohel0082.github.io/Stock-market-analysis/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Quiz Game",
     img: "/images/quiz.png",
     description:
@@ -103,7 +113,7 @@ export const data = [
     demo: "https://shaikhsohel0082.github.io/Quiz_game/",
   },
   {
-    id: 11,
+    id: 12,
     title: "Stop Watch",
     img: "/images/stopwatch.png",
     description:
@@ -113,7 +123,7 @@ export const data = [
     demo: "https://shaikhsohel0082.github.io/stop-watch/",
   },
   {
-    id: 12,
+    id: 13,
     title: "Nodejs - Authentication",
     img: "/images/authentication.png",
     description:
@@ -123,7 +133,7 @@ export const data = [
     demo: "https://shaikhsohel0082.github.io/stop-watch/",
   },
   {
-    id: 13,
+    id: 14,
     title: "Photofolio- a Photo Album App",
     img: "/images/photopholio.png",
     description:
@@ -133,7 +143,7 @@ export const data = [
     demo: "https://photofolio-0fao.onrender.com",
   },
   {
-    id: 14,
+    id: 15,
     title: "Ipod Skeleton",
     img: "/images/ipod.png",
     description: "This project is a basic skeleton of an ipod app.",
