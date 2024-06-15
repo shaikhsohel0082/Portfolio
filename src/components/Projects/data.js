@@ -42,6 +42,17 @@ export const data = [
   },
   {
     id: id++,
+    title: "Personal Bookshelf",
+    img: "/images/bookshelf.png",
+    description:
+      "This is a simple React application that allows users to search for books and add them to their personal bookshelf.",
+    technology: "React, HTML, CSS",
+    github: "https://github.com/shaikhsohel0082/personal-bookshelf.git",
+
+    demo: "https://personal-bookkshelf.netlify.app/",
+  },
+  {
+    id: id++,
     title: "Calculator",
     img: "/images/calculator.png",
     description:
