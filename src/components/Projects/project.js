@@ -37,20 +37,6 @@ export default function Project() {
                 </div>
                 <hr />
 
-                {item.server && (
-                  <>
-                    <div>
-                      <p>
-                        Server :&nbsp;
-                        <a href={item.server} target="_blank">
-                          Start server
-                        </a>
-                      </p>
-                    </div>
-                    <hr />
-                  </>
-                )}
-
                 <div>
                   <p>
                     Demo :{" "}

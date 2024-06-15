@@ -1,17 +1,17 @@
+let id = 0;
 export const data = [
   {
-    id: 1,
+    id: id++,
     title: "Rentify",
     img: "/images/rentify.png",
     description:
       "Rentify is a simple brokarage application to find a house for rent. Users can search for houses according to their choices and can also book a house.",
     technology: "React, Node, Express, MongoDB, HTML, CSS, Bootstrap",
     github: "https://github.com/shaikhsohel0082/rentifyFrontend",
-    server: "https://rentifybackend-gq7p.onrender.com",
-    demo: "https://rentifyfrontend-eq4y.onrender.com/",
+    demo: "https://easyrentifyy.netlify.app/",
   },
   {
-    id: 2,
+    id: id++,
     title: "Contact Manager",
     img: "/images/contactManager.png",
     description:
@@ -21,7 +21,7 @@ export const data = [
     demo: "https://contact-maanager.netlify.app/",
   },
   {
-    id: 3,
+    id: id++,
     title: "Habit Tracking App",
     img: "/images/habitTracker.png",
     description:
@@ -31,17 +31,17 @@ export const data = [
     demo: "https://habit-trackerappl.netlify.app/",
   },
   {
-    id: 4,
+    id: id++,
     title: "Eshop",
     img: "/images/Eshop.png",
     description:
       "Eshop is a simple react application that will allow you to buy products and save them in your cart and checkout.",
     technology: "React, HTML, CSS",
     github: "https://github.com/shaikhsohel0082/EShoppy.git",
-    demo: "https://eshoppy-p514.onrender.com/",
+    demo: "https://e-shoppi.netlify.app/",
   },
   {
-    id: 5,
+    id: id++,
     title: "Calculator",
     img: "/images/calculator.png",
     description:
@@ -49,10 +49,10 @@ export const data = [
     technology: "React, HTML, CSS",
     github: "https://github.com/shaikhsohel0082/calculator.git",
 
-    demo: "https://calculator-6lyn.onrender.com/",
+    demo: "https://reactt-calculatorr.netlify.app/",
   },
   {
-    id: 6,
+    id: id++,
     title: "Music Player",
     img: "/images/musicPlayer.png",
     description:
@@ -63,7 +63,7 @@ export const data = [
   },
 
   {
-    id: 7,
+    id: id++,
     title: "Mini IMDB Clone App",
     img: "/images/IMDB.png",
     description:
@@ -73,7 +73,7 @@ export const data = [
     demo: "https://shaikhsohel0082.github.io/Mini-IMDB-Clone-App/",
   },
   {
-    id: 8,
+    id: id++,
     title: "Placement Cell",
     img: "/images/placementCell.png",
     description:
@@ -83,7 +83,7 @@ export const data = [
     demo: "https://placementcell-4qep.onrender.com/",
   },
   {
-    id: 9,
+    id: id++,
     title: "My Resume",
     img: "/images/resume.png",
     description:
@@ -93,7 +93,7 @@ export const data = [
     demo: "https://shaikhsohel0082.github.io/MyResume/",
   },
   {
-    id: 10,
+    id: id++,
     title: "Stock Market Analysis Web App",
     img: "/images/stock.png",
     description:
@@ -103,7 +103,7 @@ export const data = [
     demo: "https://shaikhsohel0082.github.io/Stock-market-analysis/",
   },
   {
-    id: 11,
+    id: id++,
     title: "Quiz Game",
     img: "/images/quiz.png",
     description:
@@ -113,7 +113,7 @@ export const data = [
     demo: "https://shaikhsohel0082.github.io/Quiz_game/",
   },
   {
-    id: 12,
+    id: id++,
     title: "Stop Watch",
     img: "/images/stopwatch.png",
     description:
@@ -123,27 +123,27 @@ export const data = [
     demo: "https://shaikhsohel0082.github.io/stop-watch/",
   },
   {
-    id: 13,
+    id: id++,
     title: "Nodejs - Authentication",
     img: "/images/authentication.png",
     description:
       "A complete authentication system which can be used as a starter code for creating any new application",
     technology: "Nodejs, HTML, CSS, JS",
     github: "https://github.com/shaikhsohel0082/nodejsAuthenitication.git",
-    demo: "https://shaikhsohel0082.github.io/stop-watch/",
+    demo: "",
   },
   {
-    id: 14,
+    id: id++,
     title: "Photofolio- a Photo Album App",
     img: "/images/photopholio.png",
     description:
       "This is a simple web application for creating and managing photo albums. Users can create albums, add images to albums, delete images, and download images. The application uses Firebase Firestore for data storage and React with React Router for the frontend.",
     technology: "Reactjs, HTML, CSS",
     github: "https://github.com/shaikhsohel0082/Photofolio.git",
-    demo: "https://photofolio-0fao.onrender.com",
+    demo: "https://photofoliooo.netlify.app/",
   },
   {
-    id: 15,
+    id: id++,
     title: "Ipod Skeleton",
     img: "/images/ipod.png",
     description: "This project is a basic skeleton of an ipod app.",
