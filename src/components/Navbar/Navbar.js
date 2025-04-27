@@ -5,7 +5,7 @@ export default function Navbar() {
   // alert("Switch to Dekstop Mode for better user experience");
   function handleDownload() {
     const pdfURL =
-      "https://drive.google.com/file/d/1j52BhPrjgTU7KJXJa-yTssS8A090LUkl/view?usp=drivesdk";
+      "https://drive.google.com/file/d/1O5LI5MzFAfQ2-UB6Mut-b0TXzTmpBMa6/view?usp=drivesdk";
     console.log(pdfURL);
     const link = document.createElement("a");
     link.href = pdfURL;
