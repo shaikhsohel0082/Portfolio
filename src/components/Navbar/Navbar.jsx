@@ -5,7 +5,7 @@ export default function Navbar() {
   // alert("Switch to Dekstop Mode for better user experience");
   function handleDownload() {
     const pdfURL =
-      "https://drive.google.com/file/d/1O5LI5MzFAfQ2-UB6Mut-b0TXzTmpBMa6/view?usp=drivesdk";
+      "https://drive.google.com/file/d/1GaGhAedukiCwRTrDzdsHFsRt5t6cddwz/view?usp=drive_link";
     console.log(pdfURL);
     const link = document.createElement("a");
     link.href = pdfURL;
@@ -107,7 +107,7 @@ export default function Navbar() {
             Contact
           </NavLink>
         </div>
-        <div>
+        <div className={Styles.btnWrapper}>
           <button className={Styles.downloadBtn} onClick={handleDownload}>
             <FaDownload />
           </button>

@@ -36,15 +36,16 @@ export default function Project() {
                   </p>
                 </div>
                 <hr />
-
-                <div>
-                  <p>
-                    Demo :{" "}
-                    <a href={item.demo} target="_blank">
-                      Live Demo
-                    </a>
-                  </p>
-                </div>
+                {item.demo && (
+                  <div>
+                    <p>
+                      Demo :{" "}
+                      <a href={item.demo} target="_blank">
+                        Live Demo
+                      </a>
+                    </p>
+                  </div>
+                )}
               </div>
             </div>
           </>

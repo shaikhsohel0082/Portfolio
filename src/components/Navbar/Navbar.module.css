@@ -37,7 +37,11 @@ body {
     border: 2px dotted white;
     border-radius: 20px 20px;
 }
-
+.btnWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .downloadBtn {
     background-color: black;
     height: 40px;
@@ -45,11 +49,12 @@ body {
     font-size: larger;
     color: aliceblue;
     border: none;
+    text-align: center;
     margin-right: 10px;
     margin-top: -1px;
 }
 
 .downloadBtn:hover {
     border: 2px dotted white;
-    border-radius: 20px 20px;
+    /* border-radius: 20px 20px; */
 }
