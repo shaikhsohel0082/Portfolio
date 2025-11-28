@@ -1,5 +1,25 @@
 let id = 0;
 export const data = [
+   {
+    id: id++,
+    title: "Tiny Url",
+    img: "/images/tinyurl.png",
+    description:
+      "Tiny Url is a MERN stack app used to customize any url based on any code of our choice.",
+    technology: "React, Node, Express, MongoDB, HTML, CSS, Bootstrap",
+    github: "https://github.com/shaikhsohel0082/tinyLink_frontend",
+    demo: "https://tinyurrl.netlify.app/",
+  },
+  {
+    id: id++,
+    title: "Fantasy sports",
+    img: "/images/sports.png",
+    description:
+      "Fantasy sports is a simple game betting application.In which  Users can create multiple teams based on credits and participate in competitions.",
+    technology: "React, Node, Express, MongoDB, HTML, CSS, Bootstrap",
+    github: "https://github.com/shaikhsohel0082/Fantasy-sports",
+    demo: "https://fantassy-sports.netlify.app/",
+  },
   {
     id: id++,
     title: "Rentify",
